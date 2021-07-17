@@ -1,10 +1,11 @@
 package bdw
 
 import (
-	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"time"
+
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/onsi/gomega"
+	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 func (bdw *BrokerDeploymentWrapper) WaitForBrokerSet(result int, originalSize int) {

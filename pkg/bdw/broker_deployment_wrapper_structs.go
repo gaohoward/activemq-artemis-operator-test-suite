@@ -5,7 +5,7 @@ package bdw
 
 import (
 	brokerclientset "github.com/artemiscloud/activemq-artemis-operator/pkg/client/clientset/versioned"
-	"github.com/rh-messaging/shipshape/pkg/framework"
+	"github.com/gaohoward/shipshape/pkg/framework"
 )
 
 // BrokerDeploymentWrapper takes care of deployment of Broker
@@ -97,15 +97,15 @@ type SlowConsumerPolicy int //TODO
 type AddressFullPolicy int
 
 const (
-	DROP  = "DROP"
-	FAIL  = "FAIL"
-	PAGE  = "PAGE"
-	BLOCK = "BLOCK"
-	OFF = "OFF"
-	FORCE = "FORCE"
-	NOTIFY = "NOTIFY"
-	KILL = "KILL"
-	ANYCAST = "ANYCAST"
+	DROP      = "DROP"
+	FAIL      = "FAIL"
+	PAGE      = "PAGE"
+	BLOCK     = "BLOCK"
+	OFF       = "OFF"
+	FORCE     = "FORCE"
+	NOTIFY    = "NOTIFY"
+	KILL      = "KILL"
+	ANYCAST   = "ANYCAST"
 	MULTICAST = "MULTICAST"
 
 	DropPolicy AddressFullPolicy = iota

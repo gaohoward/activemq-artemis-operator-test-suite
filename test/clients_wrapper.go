@@ -2,9 +2,10 @@ package test
 
 import (
 	"fmt"
-	"github.com/rh-messaging/shipshape/pkg/api/client/amqp/qeclients"
-	"github.com/rh-messaging/shipshape/pkg/framework"
-	"github.com/rh-messaging/shipshape/pkg/framework/log"
+
+	"github.com/gaohoward/shipshape/pkg/api/client/amqp/qeclients"
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/gaohoward/shipshape/pkg/framework/log"
 )
 
 type SenderReceiverWrapper struct {

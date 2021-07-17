@@ -1,20 +1,22 @@
 package bdw
+
 /* This file contains deployment-related helper methods for BrokerDeploymentWrapper
  */
 
 import (
 	"encoding/json"
 	"fmt"
-	brokerv3 "github.com/artemiscloud/activemq-artemis-operator/pkg/apis/broker/v2alpha3"
-	"github.com/fgiorgetti/qpid-dispatch-go-tests/pkg/framework/log"
-	"github.com/ghodss/yaml"
-	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework"
 	"io/ioutil"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"net/http"
 	"strconv"
 	"time"
+
+	brokerv3 "github.com/artemiscloud/activemq-artemis-operator/pkg/apis/broker/v2alpha3"
+	"github.com/fgiorgetti/qpid-dispatch-go-tests/pkg/framework/log"
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/ghodss/yaml"
+	"github.com/onsi/gomega"
+	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 func (bdw *BrokerDeploymentWrapper) DeployBrokersWithAcceptor(count int, acceptorType AcceptorType) error {
@@ -72,7 +74,6 @@ func (bdw *BrokerDeploymentWrapper) DeployBrokers(count int) error {
 	return bdw.DeployBrokersWithAcceptor(count, AmqpAcceptor)
 }
 
-
 func (bdw *BrokerDeploymentWrapper) Update() error {
 	resourceVersion := int64(0)
 
@@ -110,10 +111,7 @@ func (bdw *BrokerDeploymentWrapper) Scale(result int) error {
 	return bdw.Update()
 }
 
-
 // ChangeImage changes image used in Broker instance to a new one
 func (bdw *BrokerDeploymentWrapper) ChangeImage() error {
 	return bdw.Update()
 }
-
-

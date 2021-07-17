@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gaohoward/shipshape/pkg/framework/log"
 	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework/log"
 )
 
 func FormUrl(protocol, DeployName, number, subdomain, namespace, domain, address, port string) string {

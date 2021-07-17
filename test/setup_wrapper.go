@@ -2,10 +2,11 @@ package test
 
 import (
 	"flag"
+
 	brokerclientset "github.com/artemiscloud/activemq-artemis-operator/pkg/client/clientset/versioned"
-	"github.com/rh-messaging/shipshape/pkg/framework"
-	"github.com/rh-messaging/shipshape/pkg/framework/log"
-	"github.com/rh-messaging/shipshape/pkg/framework/operators"
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/gaohoward/shipshape/pkg/framework/log"
+	"github.com/gaohoward/shipshape/pkg/framework/operators"
 )
 
 type SetupWrapper struct {

@@ -1,6 +1,6 @@
 package test
 
-import "github.com/rh-messaging/shipshape/pkg/framework/operators"
+import "github.com/gaohoward/shipshape/pkg/framework/operators"
 
 type OperatorDeploymentWrapper struct {
 	EnvVariables map[string]string

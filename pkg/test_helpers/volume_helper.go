@@ -1,8 +1,8 @@
 package test_helpers
 
 import (
+	"github.com/gaohoward/shipshape/pkg/framework"
 	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -1,13 +1,13 @@
 package persistence
 
 import (
-	"github.com/onsi/ginkgo"
-	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/api/client/amqp"
-	"github.com/rh-messaging/shipshape/pkg/framework"
-	"github.com/rh-messaging/shipshape/pkg/framework/log"
 	"github.com/artemiscloud/activemq-artemis-operator-test-suite/pkg/bdw"
 	"github.com/artemiscloud/activemq-artemis-operator-test-suite/test"
+	"github.com/gaohoward/shipshape/pkg/api/client/amqp"
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/gaohoward/shipshape/pkg/framework/log"
+	"github.com/onsi/ginkgo"
+	"github.com/onsi/gomega"
 )
 
 var _ = ginkgo.Describe("MessagingMigrationTests", func() {

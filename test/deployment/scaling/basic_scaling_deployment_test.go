@@ -1,11 +1,11 @@
 package scaling
 
 import (
-	"github.com/onsi/ginkgo"
-	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework"
 	bdw "github.com/artemiscloud/activemq-artemis-operator-test-suite/pkg/bdw"
 	"github.com/artemiscloud/activemq-artemis-operator-test-suite/test"
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/onsi/ginkgo"
+	"github.com/onsi/gomega"
 )
 
 var _ = ginkgo.Describe("DeploymentScalingBroker", func() {

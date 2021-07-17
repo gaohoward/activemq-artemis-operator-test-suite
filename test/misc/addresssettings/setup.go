@@ -3,13 +3,14 @@ package addresssettings
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/onsi/ginkgo"
-	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework/log"
-	"github.com/artemiscloud/activemq-artemis-operator-test-suite/pkg/test_helpers"
-	"github.com/artemiscloud/activemq-artemis-operator-test-suite/test"
 	"strconv"
 	"strings"
+
+	"github.com/artemiscloud/activemq-artemis-operator-test-suite/pkg/test_helpers"
+	"github.com/artemiscloud/activemq-artemis-operator-test-suite/test"
+	"github.com/onsi/ginkgo"
+	"github.com/onsi/gomega"
+	"github.com/rgaohoward/shipshape/pkg/framework/log"
 )
 
 // Constants available for all test specs related with the One Interior topology

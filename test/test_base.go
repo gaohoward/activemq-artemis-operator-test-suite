@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/gaohoward/shipshape/pkg/framework"
+	"github.com/gaohoward/shipshape/pkg/framework/ginkgowrapper"
+	"github.com/gaohoward/shipshape/pkg/framework/log"
 	"github.com/ghodss/yaml"
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/config"
 	"github.com/onsi/ginkgo/reporters"
 	"github.com/onsi/gomega"
-	"github.com/rh-messaging/shipshape/pkg/framework"
-	"github.com/rh-messaging/shipshape/pkg/framework/ginkgowrapper"
-	"github.com/rh-messaging/shipshape/pkg/framework/log"
 	"k8s.io/klog"
 )
 

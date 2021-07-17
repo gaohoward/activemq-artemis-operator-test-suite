@@ -5,7 +5,7 @@ package bdw
 
 import (
 	brokerclientset "github.com/artemiscloud/activemq-artemis-operator/pkg/client/clientset/versioned"
-	"github.com/rh-messaging/shipshape/pkg/framework"
+	"github.com/gaohoward/shipshape/pkg/framework"
 )
 
 // WithWait sets if shipshape would wait for completion
