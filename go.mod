@@ -5,13 +5,12 @@ go 1.12
 require (
 	github.com/artemiscloud/activemq-artemis-operator v0.17.0
 	github.com/fgiorgetti/qpid-dispatch-go-tests v0.0.0-20190923194420-c3f992ce0eee
-	github.com/gaohoward/shipshape v0.2.5 // indirect
+	github.com/gaohoward/shipshape v0.2.6
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-openapi/jsonreference v0.19.3 // indirect
 	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/onsi/ginkgo v1.12.3
 	github.com/onsi/gomega v1.10.1
-	github.com/gaohoward/shipshape v0.2.5
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45 // indirect
 	golang.org/x/tools v0.0.0-20200331025713-a30bf2db82d4 // indirect

@@ -10,7 +10,7 @@ import (
 	"github.com/artemiscloud/activemq-artemis-operator-test-suite/test"
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"
-	"github.com/rgaohoward/shipshape/pkg/framework/log"
+	"github.com/gaohoward/shipshape/pkg/framework/log"
 )
 
 // Constants available for all test specs related with the One Interior topology
